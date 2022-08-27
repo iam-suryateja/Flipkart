@@ -22,11 +22,13 @@ header {
   color: white;
 }
 #plus {
-  margin-left: 41%;
+  margin-left: 42%;
 }
 #plus img {
   height: 20px;
   width: 20px;
+  height: 50%;
+  margin-top: -20%;
 }
 
 #search-box {
@@ -43,9 +45,9 @@ header {
 #search-box button {
   display: inline-block;
   position: absolute;
-  height: 3.7%;
+  height: 2.9%;
   color: rgb(40, 116, 241);
-  margin-top: 4px;
+  margin-top: 11px;
   background-color: white;
   margin-left: -1;
   border: none;
