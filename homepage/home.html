@@ -6,93 +6,190 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DevFlip</title>
     <link rel="stylesheet" href="./home.css" />
+    <script
+      src="https://kit.fontawesome.com/c4338603d0.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+      integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- <link rel="stylesheet" href="boot.css" /> -->
+
     <link
       rel="shortcut icon"
       href="./images/flipkart-icon.png"
       type="image/x-icon"
     />
-    <script src="https://kit.fontawesome.com/c4338603d0.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <header>
-        <div id="logo">
-            <a href="#"><img src="./images/flipkart-plus_8d85f4.png" alt="flipicon" srcset=""/></a>
-            <a href="#">
-                <span id="plus">Plus
-                    <img src="./images/plus_aef861.png" alt="plus" srcset="">
-                </span>
-            </a>
-        </div>
-        <div id="search-box">
-            <input id="search-bar" placeholder="Search...."/>
-            <button><i class="fa-solid fa-magnifying-glass"></i></button>
-
-        </div>
-        <div id="login">
-            <button>Login</button> &nbsp;&nbsp;&nbsp;
-            <button>SignUp</button>
-        </div>
- 
+      <div id="logo">
+        <a href="#"
+          ><img
+            src="./images/flipkart-plus_8d85f4.png"
+            alt="flipicon"
+            srcset=""
+        /></a>
+        <a href="#">
+          <span id="plus"
+            >Plus
+            <img src="./images/plus_aef861.png" alt="plus" srcset="" />
+          </span>
+        </a>
+      </div>
+      <div id="search-box">
+        <input id="search-bar" placeholder="Search...." />
+        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+      </div>
+      <div id="login">
+        <button>Login</button> &nbsp;&nbsp;&nbsp;
+        <button>SignUp</button>
+      </div>
     </header>
     <div id="main">
       <div id="top-strip">
         <div id="strip-container">
-        <figure class="strip-icons">
-          <img src="https://i.ibb.co/72tFJDD/top-offers.png" alt="offer" />
-          <figcaption>Top Offers</figcaption>
-        </figure>
-        <figure class="strip-icons">
-          <img src="https://i.ibb.co/PZvWQpp/grocery.png" alt="grocery" />
-          <figcaption>Grocery</figcaption>
-        </figure>
-        <figure class="strip-icons">
-          <img src="https://i.ibb.co/Jptfv9B/mobiles.png" alt="mobiles" />
-          <figcaption>Mobiles</figcaption>
-        </figure>
-        <figure class="strip-icons">
-          <img src="https://i.ibb.co/NW23z09/fashion.png" alt="fashion" />
-          <figcaption>Fashion</figcaption>
-        </figure>
-        <figure class="strip-icons">
-          <img src="https://i.ibb.co/JtxLjXB/electronics.png" alt="electronics" />
-          <figcaption>Electronics</figcaption>
-        </figure>
-        <figure class="strip-icons">
-          <img src="https://i.ibb.co/64kY2Cd/toys.png" alt="toys" />
-          <figcaption>Toys</figcaption>
-        </figure>
-        <figure class="strip-icons">
-          <img src="https://i.ibb.co/X2Tp0Bd/travel.png" alt="travel" />
-          <figcaption>Travel</figcaption>
-        </figure>
+          <figure class="strip-icons">
+            <img src="https://i.ibb.co/72tFJDD/top-offers.png" alt="offer" />
+            <figcaption>Top Offers</figcaption>
+          </figure>
+          <figure class="strip-icons">
+            <img src="https://i.ibb.co/PZvWQpp/grocery.png" alt="grocery" />
+            <figcaption>Grocery</figcaption>
+          </figure>
+          <figure class="strip-icons">
+            <img src="https://i.ibb.co/Jptfv9B/mobiles.png" alt="mobiles" />
+            <figcaption>Mobiles</figcaption>
+          </figure>
+          <figure class="strip-icons">
+            <img src="https://i.ibb.co/NW23z09/fashion.png" alt="fashion" />
+            <figcaption>Fashion</figcaption>
+          </figure>
+          <figure class="strip-icons">
+            <img
+              src="https://i.ibb.co/JtxLjXB/electronics.png"
+              alt="electronics"
+            />
+            <figcaption>Electronics</figcaption>
+          </figure>
+          <figure class="strip-icons">
+            <img src="https://i.ibb.co/64kY2Cd/toys.png" alt="toys" />
+            <figcaption>Toys</figcaption>
+          </figure>
+          <figure class="strip-icons">
+            <img src="https://i.ibb.co/X2Tp0Bd/travel.png" alt="travel" />
+            <figcaption>Travel</figcaption>
+          </figure>
+        </div>
       </div>
-      </div>
-        <div id="search-box"></div>
-        <div id="login"></div>
-      </div>
-      <div id="slider">
-        <img src="./images/bd8609a1a3559647.webp" alt="slider">
-      </div>
-      <div class="deal">
-        <h1>Deals of the Day</h1>
-      <hr/>
-        <div class="dealItem"></div>
-        <div class="dealItem"></div>
-        <div class="dealItem"></div>
-        <div class="dealItem"></div>
-        <div class="dealItem"></div>
-      </div>
-      <div class="deal">
-        <h1>Attractive Deals </h1>
-      <hr/>
-        <div class="dealItem"></div>
-        <div class="dealItem"></div>
-        <div class="dealItem"></div>
-        <div class="dealItem"></div>
-        <div class="dealItem"></div>
-      </div>
-      <div class="deal" ></div>
+      <div id="search-box"></div>
+      <div id="login"></div>
     </div>
-    <footer></footer>
+    <div id="slider">
+      <img src="./images/bd8609a1a3559647.webp" alt="slider" />
+    </div>
+    <div class="deal">
+      <h1>Deals of the Day</h1>
+      <hr />
+      <div class="owl-carousel owl-theme">
+          <div class="item" id="first">
+            <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSJbEwjLnd3dDMRkXb89A1YyG8jbaE-jHjeEYh078s3GP3_H0RDOXImB5BaQZT4ngBiwgcdbGDG4BiAeIII9qvKR4a5A0qsJJ-3znJ3ruGDnuOxck6E3rhC&usqp=CAc" alt="clothes"/>
+            <div>
+              <p>Blue T-Shirt Men</p>
+              <span>Min 77% off</span>
+            </div>
+          </div>
+          <div class="item" id="second">
+            <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSJbEwjLnd3dDMRkXb89A1YyG8jbaE-jHjeEYh078s3GP3_H0RDOXImB5BaQZT4ngBiwgcdbGDG4BiAeIII9qvKR4a5A0qsJJ-3znJ3ruGDnuOxck6E3rhC&usqp=CAc" alt="clothes"/>
+            <div>
+              <p>Blue T-Shirt Men</p>
+              <span>Min 77% off</span>
+            </div>
+          </div>
+          <div class="item" id="third">
+            <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSJbEwjLnd3dDMRkXb89A1YyG8jbaE-jHjeEYh078s3GP3_H0RDOXImB5BaQZT4ngBiwgcdbGDG4BiAeIII9qvKR4a5A0qsJJ-3znJ3ruGDnuOxck6E3rhC&usqp=CAc" alt="clothes"/>
+            <div>
+              <p>Blue T-Shirt Men</p>
+              <span>Min 77% off</span>
+            </div>
+          </div>
+          <div class="item" id="fourth">
+            <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSJbEwjLnd3dDMRkXb89A1YyG8jbaE-jHjeEYh078s3GP3_H0RDOXImB5BaQZT4ngBiwgcdbGDG4BiAeIII9qvKR4a5A0qsJJ-3znJ3ruGDnuOxck6E3rhC&usqp=CAc" alt="clothes"/>
+            <div>
+              <p>Blue T-Shirt Men</p>
+              <span>Min 77% off</span>
+            </div>
+          </div>
+          <div class="item" id="fifth">
+            <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSJbEwjLnd3dDMRkXb89A1YyG8jbaE-jHjeEYh078s3GP3_H0RDOXImB5BaQZT4ngBiwgcdbGDG4BiAeIII9qvKR4a5A0qsJJ-3znJ3ruGDnuOxck6E3rhC&usqp=CAc" alt="clothes"/>
+            <div>
+              <p>Blue T-Shirt Men</p>
+              <span>Min 77% off</span>
+            </div>
+          </div>
+          <div class="item" id="sixth">
+            <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSJbEwjLnd3dDMRkXb89A1YyG8jbaE-jHjeEYh078s3GP3_H0RDOXImB5BaQZT4ngBiwgcdbGDG4BiAeIII9qvKR4a5A0qsJJ-3znJ3ruGDnuOxck6E3rhC&usqp=CAc" alt="clothes"/>
+            <div>
+              <p>Blue T-Shirt Men</p>
+              <span>Min 77% off</span>
+            </div>
+          </div>
+      </div>
+
+        <!-- <div class="dealItem"></div>
+        <div class="dealItem"></div>
+        <div class="dealItem"></div>
+        <div class="dealItem"></div>
+        <div class="dealItem"></div> -->
+      </div>
+      <div class="deal">
+        <h1>Attractive Deals</h1>
+        <hr />
+        <div class="dealItem" id="first" src="./images//deal-2.webp"></div>
+        <div class="dealItem" id="second" src="./images//deal-2.webp"></div>
+        <div class="dealItem" id="third" src="./images/deal-3.webp"></div>
+        <div class="dealItem" id="fourth" src="./images/deal-4.webp"></div>
+        <div class="dealItem" id="fifth" src="./images/deal-5.webp"></div>
+      </div>
+      <div class="deal"></div>
+    </div>
+    <footer>
+      <script>
+        $('.owl-carousel').owlCarousel({
+            loop:true,
+            margin:10,
+            nav:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:3
+                },
+                1000:{
+                    items:5
+                }
+            }
+        })
+    </script>
+    </footer>
   </body>
 </html>

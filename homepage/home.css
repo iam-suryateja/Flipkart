@@ -88,18 +88,18 @@ header {
 }
 /* slider */
 #slider {
-  height: 200px;
+  height: 300px;
   border: 2px solid rgb(255, 0, 162);
 }
 #slider > img {
   width: 100%;
-  height: 200px;
+  height: 300px;
   border: 2px solid rgb(255, 0, 162);
 }
 
 /* deal */
 .deal {
-  height: 350px;
+  height: 450px;
   margin: 2%;
   width: 95%;
   box-shadow: 10px 20px 10px gray;
@@ -112,6 +112,23 @@ header {
   margin-left: 4%;
   float: left;
 }
+
+.item {
+  height: 300px;
+  width: 200px;
+  border: 2px solid red;
+  padding: 18px;
+  text-align: center;
+}
+
+.item > img {
+  height: 250px;
+}
+
+.item > div > span {
+  color: green;
+}
+
 /* mdeal */
 #mdeal {
   height: 350px;
