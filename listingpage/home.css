@@ -1,0 +1,167 @@
+body {
+  margin: auto;
+}
+
+/* Header */
+header {
+  height: 55px;
+  background-color: #2874f0;
+  display: flex;
+}
+#logo {
+  width: 90px;
+  margin-left: 10%;
+  margin-top: 0.5%;
+}
+#logo img {
+  width: 100%;
+}
+
+#logo a {
+  text-decoration: none;
+  color: white;
+}
+#plus {
+  margin-left: 42%;
+}
+#plus img {
+  height: 20px;
+  width: 20px;
+  height: 50%;
+  margin-top: -20%;
+}
+
+#search-box {
+  width: 45%;
+  margin-left: 7%;
+}
+#search-box input {
+  width: 90%;
+  margin-top: 1%;
+  height: 35px;
+  border: none;
+}
+
+#search-box button {
+  display: inline-block;
+  position: absolute;
+  height: 2.9%;
+  color: rgb(40, 116, 241);
+  margin-top: 11px;
+  background-color: white;
+  margin-left: -1;
+  border: none;
+  border-radius: 0;
+}
+
+#login {
+  width: 25%;
+  margin-left: 6%;
+  margin-top: 0.5%;
+  border: none;
+}
+
+#login button {
+  background-color: white;
+  border: none;
+  height: 65%;
+  width: 100px;
+  font-size: 17px;
+  font-weight: bold;
+  color: rgb(40, 116, 241);
+}
+
+/* top-strip */
+#top-strip {
+  display: inline-block;
+}
+
+.strip-icons {
+  float: left;
+}
+/* #strip-container {
+  /* margin-left: 8%; */
+} */
+
+.strip-icons img {
+  height: 100%;
+  width: 100%;
+  /* margin-left: -20%; */
+}
+/* slider */
+#slider {
+  height: 300px;
+  border: 2px solid rgb(255, 0, 162);
+}
+#slider > img {
+  width: 100%;
+  height: 300px;
+  border: 2px solid rgb(255, 0, 162);
+}
+
+/* deal */
+.deal {
+  height: 450px;
+  margin: 2%;
+  width: 95%;
+  box-shadow: 10px 20px 10px gray;
+}
+
+.dealItem {
+  height: 250px;
+  width: 200px;
+  background-color: hotpink;
+  margin-left: 4%;
+  float: left;
+}
+
+.item {
+  height: 300px;
+  width: 200px;
+  border: 2px solid red;
+  padding: 18px;
+  text-align: center;
+}
+
+.item > img {
+  height: 250px;
+}
+
+.item > div > span {
+  color: green;
+}
+
+/* mdeal */
+#mdeal {
+  height: 350px;
+  border: 2px solid rgba(241, 42, 52);
+}
+/* footer */
+footer {
+  height: 400px;
+  background-color: #172337;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+#mainFoot {
+  margin-left: 50px;
+  width: 100%;
+  display: inline-block;
+}
+.footCol {
+  height: 300px;
+  width: 15%;
+  float: left;
+  margin: 2%;
+}
+
+.footCol h5 {
+  color: grey;
+}
+
+.footCol a {
+  display: block;
+  line-height: 1.5;
+}
